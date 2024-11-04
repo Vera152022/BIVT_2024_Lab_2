@@ -326,7 +326,7 @@ public class Program
         for (int i = 0; i < n; i++)
         {
             double rez = double.Parse(Console.ReadLine());
-            if (rez >= norm)
+            if (rez <= norm)
             {
                 answer++;
             }
